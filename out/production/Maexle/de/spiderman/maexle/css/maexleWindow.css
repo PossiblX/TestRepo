@@ -1,0 +1,93 @@
+.number-field {
+    -fx-pref-width: 55;
+    -fx-pref-height: 30;
+
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #FF6347;
+
+    -fx-accent: #F7766D;
+
+    -fx-text-fill: #6C757D;
+    -fx-text-alignment: center;
+
+    -fx-prompt-text-fill: #FF6347;
+}
+.number-field: focused {
+    -fx-effect: dropshadow( three-pass-box, #FF6347 , 10.0, 0.0,0.0,0.0);
+}
+
+.back-pane {
+    -fx-background-color: #181818;
+}
+
+.vs-label {
+    -fx-text-fill: #F7F7F7;
+}
+.vs-label: hover {
+    -fx-effect: dropshadow(three-pass-box, #FF6347, 10, 0, 0, 0);
+}
+
+.randomize-button {
+    -fx-pref-width: 120;
+    -fx-pref-height: 30;
+
+    -fx-effect: dropshadow( three-pass-box, #FF6347 , 10.0, 0.0,0.0,0.0);
+
+    -fx-border-width: 0;
+
+    -fx-background-radius: 8;
+    -fx-background-color: #FF6347;
+
+    -fx-text-fill: #F7F7F7;
+}
+
+.container-pane {
+    -fx-background-color: #1D1D1B;
+}
+
+#evaluation {
+    -fx-border-color: #FF6347;
+    -fx-border-width: 1 0 1 0;
+
+    -fx-effect: dropshadow(three-pass-box, #FF6347, 10, 0, 0, 0);
+}
+
+.top-pane {
+    -fx-pref-width: 750;
+    -fx-pref-height: 50;
+
+    -fx-background-color: #0A0A0A;
+}
+
+.title-label {
+    -fx-text-fill: #F7F7F7;
+}
+
+.result-label {
+    -fx-text-fill: #F7F7F7;
+}
+
+.close-button {
+    -fx-pref-width: 30;
+    -fx-pref-height: 30;
+
+    -fx-background-color: #1F1F1F;
+    -fx-background-radius: 9;
+
+    -fx-border-color: #2B2B2B;
+    -fx-border-radius: 9;
+
+    -fx-text-fill: #F7F7F7;
+}
+.close-button: hover {
+    -fx-background-color: #FF6347;
+}
+
+.evaluation-label {
+    -fx-text-fill: #F7F7F7;
+}
+
+#win-highlight {
+    -fx-effect: dropshadow(three-pass-box, #FF6347, 10, 0, 0, 0);
+}
